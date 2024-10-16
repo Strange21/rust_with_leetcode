@@ -5,6 +5,7 @@ mod majority_element;
 // mod longest_common_prefix;
 mod reverse_words;
 mod rotate_array;
+mod happy_number;
 
 fn main() {
     // println!("Hello, world!");
@@ -26,8 +27,11 @@ fn main() {
     // let mut s = "  The Sky is    Blue".to_string();
     // reverse_words::reverse_words(s);
 
-    let mut test = vec![1, 2, 3, 4, 5, 6, 7];
-    // rotate_array::rotate_once(&mut test);
-    rotate_array::rotate(&mut test, 3);
+    // let mut test = vec![1, 2, 3, 4, 5, 6, 7];
+    // // rotate_array::rotate_once(&mut test);
+    // rotate_array::rotate(&mut test, 3);
+
+    let mut num = 1441;
+    happy_number::is_happy(num);
     
 }
