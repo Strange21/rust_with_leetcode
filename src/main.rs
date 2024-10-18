@@ -6,6 +6,7 @@ mod majority_element;
 mod reverse_words;
 mod rotate_array;
 mod happy_number;
+mod min_stack;
 
 fn main() {
     // println!("Hello, world!");
